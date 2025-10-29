@@ -1,0 +1,29 @@
+# 通用忽略规则
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.log
+*.swp
+*.swo
+~*
+
+# 编译/构建产物
+build/
+dist/
+*.out
+*.obj
+
+# Python缓存（如后续使用脚本处理资料）
+__pycache__/
+*.py[cod]
+
+# 备份文件
+*.bak
+*.orig
+*.old
+
+# 编辑器目录
+.vscode/
+.idea/
